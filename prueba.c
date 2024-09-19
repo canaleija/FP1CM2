@@ -2,8 +2,15 @@
  
 int main()
 {
-    int aux = recibe();
-    printf("%f\n",pow(aux,3));
+    float aux = 34;
+    float  *a = &aux;
+    *a /=23+aux;
+    float ** b = &a; // 
+
+   printf("%f\n",aux);
+   printf("%p\n",b);
+   printf("%p\n",&b);
+    
     return 0;
 }
 

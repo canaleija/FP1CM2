@@ -36,6 +36,5 @@ int main()
         printf("es mayor\n");
 
     }
-    
     return 0;
 }

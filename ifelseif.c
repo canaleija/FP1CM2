@@ -1,8 +1,7 @@
 /*
 if else if
-
+for()
 */
-
 
 #include <stdio.h>
 

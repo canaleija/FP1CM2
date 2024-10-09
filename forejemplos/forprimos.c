@@ -2,8 +2,6 @@
 
 int main()
 {
-
-   
     int z;
     for(z=1;z<=500;z++){
     int n = z, x;

@@ -1,14 +1,13 @@
 #include <stdio.h>
 // prototipos
 void saludar();
+double promedio(double,double,double,double);
 
 int main()
 {
-    // llamar la función
-    int x;
-    for(x=0;x<10;x++)
-        saludar();
-   
+
+   double aux = promedio(3.4,12,56.234,11); 
+   printf("%f\n",aux);
     return 0;
 }
 // implmentaciones
@@ -19,4 +18,12 @@ int main()
 // valor de retorno / que retorna?
 void saludar(){
     printf("Hola!\n");
+}
+
+// necesidad de promediar 4 numeros doubles y me retorne el resultado
+double promedio(double a,double b, double c, double d){
+    double prom = (a+b+c+d)/4;
+
+ return prom;   
+
 }

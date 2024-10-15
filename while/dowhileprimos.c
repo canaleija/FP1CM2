@@ -13,6 +13,9 @@ int main()
         for(x=n; x>=1; x--){
         if(n%x==0)
             c++;
+            // c+=1
+            // c = c +1
+            // ++c
         }
         if(c>=3){
             flag = 1;
@@ -21,6 +24,6 @@ int main()
     }
 
 
-    }while(flag == 1);
+    }while(flag == 0 || n%2 == 0 || n==15);
     return 0;
 }

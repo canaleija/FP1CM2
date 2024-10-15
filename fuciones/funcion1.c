@@ -5,8 +5,11 @@ double promedio(double,double,double,double);
 
 int main()
 {
+    float a,b,c,d;
 
-   double aux = promedio(3.4,12,56.234,11); 
+    scanf("%f %f %f %f",&a,&b,&c,&d);
+
+   double aux = promedio(a,b,c,d); 
    printf("%f\n",aux);
     return 0;
 }

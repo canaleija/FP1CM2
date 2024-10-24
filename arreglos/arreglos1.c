@@ -5,6 +5,7 @@ int main()
     int x,i,j, temp;
     int arreglo [] = {6,5,4,3,2,1};
     
+
     /// se implementar un ordenamiento de datos Burbuja
     for(i=1;i<6;i++){ ///  son las veces que tiene que subir la burbuja
         for(j=0;j<6-i;j++){// son los intercambios para subir cada burbuja
